@@ -2,7 +2,7 @@ package Day36_WrapperClasses;
 
 import java.util.ArrayList;
 
-public class PracticeWithArrayList {
+public class MentoringWithArrayList {
 
 	public static void main(String[] args) {
 		ArrayList<String> lst = new ArrayList<>();
