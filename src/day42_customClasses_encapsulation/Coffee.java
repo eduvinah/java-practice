@@ -14,7 +14,7 @@ public class Coffee {
 
 	}
 	// setter 
-	// another advantagesof using setter methods can be checking if data is valid. if 
+	// another advantages of using setter methods can be checking if data is valid. if 
 	// it is valid. then assign to instance variable, 
 	public void setName(String newName) {
 		name = newName;

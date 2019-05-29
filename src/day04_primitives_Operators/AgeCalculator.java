@@ -6,7 +6,7 @@ public class AgeCalculator {
 
 		// declare variable yearOfBirth and assign some year
 
-		//declare variable currentYear and assign 2019
+		// declare variable currentYear and assign 2019
 
 		// declare variable age and calculate the age and
 
@@ -16,28 +16,11 @@ public class AgeCalculator {
 
 		// Then you are .. years old.
 
-		
-
-		int yearOfBirth = 1988;
-
+		int yearOfBirth = 1990;
 		int currentYear = 2019;
-
 		int age = currentYear - yearOfBirth;
 
 		System.out.println("if you are born in " + yearOfBirth);
-
-		System.out.println("Then you are " + age + " years old.");
-		
+		System.out.println(age + " years old");
 	}
 }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		

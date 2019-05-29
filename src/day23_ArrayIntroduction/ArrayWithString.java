@@ -7,7 +7,8 @@ public class ArrayWithString {
 		String[] names2 = {"Shaun","Roman", "Burak","Vlad", "MARIA"};
 		System.out.println(names2[4]);
 		System.out.println("Number of items: "+names2.length);
-		String [] countries = {};
+		String [] countries = {
+		};
 		//array has fixed size
 		countries[0] = "USA";
 		String [] fruits = new String [] {"apple","orange"};

@@ -12,10 +12,11 @@ public class StringShoesToObject {
 		
 		// split using ',' and store into array
 		String [] arrData = data.split(",");
+
 		// create shoes object
 		//shoes.setShesData(arrData[0], double.parseDouble(arrData[1])
 		//parse is for when we want to convert data type to different one;
-		Shoes shoes = new Shoes();
+		ShoesArray shoes = new ShoesArray();
 		shoes.setShoesData(arrData[0], Double.parseDouble(arrData[1]));
 		System.out.println(shoes.getShoesData());
 		
@@ -25,7 +26,7 @@ public class StringShoesToObject {
 			System.out.println("What is your size?");
 			double size = scan.nextDouble();
 			
-			Shoes myshoes1 = new Shoes();
+			ShoesArray myshoes1 = new ShoesArray();
 			myshoes1.setShoesData(brand, size);
 			System.out.println(myshoes1.getShoesData());
 		}

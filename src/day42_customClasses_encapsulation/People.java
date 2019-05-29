@@ -5,9 +5,11 @@ public class People {
 	public static void main(String[] args) {
 		// 
 		
-		Person p1 = new Person();
+		PersonEncap p1 = new PersonEncap();
 		
 		p1.setName("Alexander");
+		System.out.println(p1.getName());
+		System.out.println(p1.getAge());
 		
 	}
 

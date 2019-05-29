@@ -6,17 +6,17 @@ public class DSW {
 
 	 public static void main(String[] args) {
 	        
-	        Shoes shoes1= new Shoes();
+	        ShoesArray shoes1= new ShoesArray();
 	        shoes1.setShoesData("ALDO",7.5);
 	        System.out.println(shoes1.getShoesData());
 	        
-	        Shoes shoes2= new Shoes();
+	        ShoesArray shoes2= new ShoesArray();
 	        shoes2.setShoesData(" Allen Edmonds",6.5);
 	        
-	        Shoes shoes3= new Shoes();
+	        ShoesArray shoes3= new ShoesArray();
 	        shoes3.setShoesData("BOSS HUGO BOSS",9.0);
 	        
-	        Shoes[] shoesArray = new Shoes[3];
+	        ShoesArray[] shoesArray = new ShoesArray[3];
 	        shoesArray[0] = shoes1;
 	        shoesArray[1] = shoes2;
 	        shoesArray[2] = shoes3;
@@ -31,7 +31,7 @@ public class DSW {
 	        
 	        //arrayList pf shoes
 	        
-	        ArrayList<Shoes> myShoes = new ArrayList<>();
+	        ArrayList<ShoesArray> myShoes = new ArrayList<>();
 	        myShoes.add(shoes1);
 	        myShoes.add(shoes2);
 	        myShoes.add(shoes3);
@@ -45,17 +45,17 @@ public class DSW {
 	        System.out.println(myShoes.get(1).size);
 	        System.out.println(myShoes.get(2).size);
 	        
-	        Shoes redShoes = myShoes.get(1);
+	        ShoesArray redShoes = myShoes.get(1);
 	        System.out.println(redShoes.getShoesData());
 	        
 	        //lets use for loop 
 	        
-	        for(Shoes shoes : myShoes) {
+	        for(ShoesArray shoes : myShoes) {
 	            System.out.println("shoes report: " +shoes.getShoesData());
 	        }
 	        //print name of shoes in the list that size is more than 7
 	        
-	        for(Shoes shoes:myShoes) {
+	        for(ShoesArray shoes:myShoes) {
 	            if(shoes.size>7) {
 	                System.out.println("size more than 7: " + shoes.getShoesData());
 	            }

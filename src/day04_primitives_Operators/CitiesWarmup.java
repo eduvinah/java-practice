@@ -2,16 +2,15 @@ package day04_primitives_Operators;
 
 public class CitiesWarmup {
 	public static void main(String[] args) {
-
-	
-			
-		int apples=25;
-		int kiwi=25;
-		int mangos= 55;
-		kiwi= mangos;
-		System.out.println(apples);
-		System.out.println(kiwi);
-		System.out.println(mangos);
+		
+		int city1= 43233;
+		int city2 = 1234;
+		int city3 = 12345;
+		
+		System.out.println(city1 + " "+ city2 +" "+ city3);
+		System.out.println(city1);
+		System.out.println(city2);
+		System.out.println(city3);
 
 
 
