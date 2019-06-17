@@ -31,6 +31,15 @@ public class Alphabet {
 			
 			
 		}
+			System.out.println("*************");
+			String oneletter ="";
+			char letter1 ='A';
+			while(letter1 <= 'Z') {
+				oneletter += oneletter;
+				System.out.println(oneletter);
+				letter1++;
+				
+			}
 	}
 	}
 }

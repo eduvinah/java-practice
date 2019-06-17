@@ -20,7 +20,7 @@ public class Building {
 		return "WarmUp [name=" + name + ", type=" + type + ", floorCount=" + floorCount + "]";
 	}
 
-	public Building() {
+	public Building(String string, String string2, int i) {
 
 	}
 

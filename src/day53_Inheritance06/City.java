@@ -10,6 +10,14 @@ public class City {
 		this.id = id;
 		this.name = name;
 	}
+		public void letsBuildARoad() {
+			buildARoad();
+		
+	}
+		public static void buildARoad() {
+			System.out.println("City - building a road");
+		
+	}
 	@Override
 	public int hashCode() {
 		return id + name.length();

@@ -5,6 +5,12 @@ public class Capital extends City {
 	private long population;
 	public int count = 1;
 
+	
+	
+	public static void buildARoad() {
+		System.out.println("capital City - building a road");
+	
+}
 	public Capital(int id, String name, long population) {
 		super(id, name);
 		this.population = population;
